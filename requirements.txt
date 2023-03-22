@@ -2,4 +2,4 @@ requests==2.22.0
 twilio
 openai
 flask
-gunicorn
+gunicorn==20.0.4
