@@ -14,7 +14,7 @@ class WhatsAppIntegrationViaTwilio:
         self.account_sid =config_manager.read_config("Default-Config","twilio_account_sid")
         self.auth_token = config_manager.read_config("Default-Config","twilio_auth_token")
         self.account_sid = 'AC827b67df59a7a2da0a36a640abc6c7b1'  # Twilio Account SID
-        self.auth_token = '7c2a690e557bcf944ce1b33edd979557'     # Twilio Account Auth Token
+        self.auth_token = '7c2a690e557bcf944ce1b33edd979557'     #  Twilio Account Auth Token
         self.client = Client(self.account_sid, self.auth_token)
 
     def sendMessage(self,body_mess,numberlist):
